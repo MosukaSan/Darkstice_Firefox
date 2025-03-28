@@ -1,3 +1,6 @@
+![](https://img.shields.io/badge/license-GPLv3-orange.svg)
+![](https://tokei.rs/b1/github/MosukaSan/Darkstice_Firefox?category=code)
+
 <div align=center>
     <img src="images/Darkstice_Logo_Light.png" height=150px>
 </div>
