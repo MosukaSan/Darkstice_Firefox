@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darkstice</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="icons/Extension_Icon_256.png">
+</head>
+<body>
+    <video autoplay muted loop id="video_wallpaper_container">
+        <source src="" id="video_wallpaper_source">
+    </video>
+    <img id="wallpaper" src="">
+    <div id="clock">
+        <h2></h2>
+    </div>
+    <div id="search_container">
+        <img id="darkstice_logo" src="images/Darkstice_Logo_Light.png" alt="darkstice_logo">
+        <form id="search_form">
+            <input type="text" id="search_input" autocomplete="off">
+        </form>
+    </div>
+    <div id="image_container">
+        <img id="custom_image" src="">
+    </div>
+
+    <script src="scripts/change/change_wallpaper.js"></script>
+    <script type="module" src="scripts/change/change_clock.js"></script>
+    <script type="module" src="scripts/change/change_position.js"></script>
+    <script src="scripts/background/background_clock.js"></script>
+    <script type="module" src="scripts/change/change_image.js"></script>
+    <script src="scripts/other/google_search.js"></script>
+    <script src="scripts/other/theme.js"></script>
+    <script type="module" src="scripts/change/change_dark.js"></script>
+    <script type="module" src="scripts/other/dark_light.js"></script>
+</body>
+</html>

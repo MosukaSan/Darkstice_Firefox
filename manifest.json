@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+    "name": "Darkstice",
+    "version": "1.0",
+
+    "description": "Darkstice theme for Firefox",
+
+    "icons": {
+        "16": "icons/Extension_Icon_16.png",
+        "32": "icons/Extension_Icon_32.png",
+        "64": "icons/Extension_Icon_64.png",
+        "128": "icons/Extension_Icon_128.png",
+        "256": "icons/Extension_Icon_256.png"
+    },
+    
+    "chrome_url_overrides": {
+        "newtab": "index.html"
+    },
+
+    "permissions": ["storage", "tabs", "activeTab", "theme"],
+
+    "browser_action": {
+        "default_title": "Darkstice",
+        "default_popup": "popup/popup.html"
+    }
+}

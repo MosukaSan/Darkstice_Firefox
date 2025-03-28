@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darkstice</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div id="main">
+        <div id="logo_container">
+            <img id="darkstice_logo" src="../images/Darkstice_Logo_Light.png" alt="darkstice_logo">
+        </div>
+        <form id="options_form">
+            <div class="side_by_side">
+                <h2>Dark</h2>
+                <div class="switch" id="dark_light_switch">
+                    <div class="switch_circle"></div>
+                </div>
+            </div>
+            <h2>Wallpaper</h2>
+            <input type="text" id="wallpaper_input" class="input" placeholder="URL">
+            <h2>Video Wallpaper</h2>
+            <input type="text" id="video_wallpaper_input" class="input" placeholder="URL">
+            <h2>Wallpaper Opacity</h2>
+            <input type="text" id="wallpaper_opacity_input" class="input" placeholder="ex: 0.5">
+            <div class="side_by_side">
+                <h2>Clock</h2>
+                <div class="switch" id="clock_switch">
+                    <div class="switch_circle"></div>
+                </div>
+            </div>
+            <h2>Clock Opacity</h2>
+            <input type="text" id="clock_opacity_input" class="input" placeholder="ex: 0.5">
+            <h2>Clock Size</h2>
+            <input type="text" id="clock_size_input" class="input" placeholder="ex: 16">
+            <h2>Clock Position</h2>
+            <div id="clock_position_buttons" class="position_buttons">
+                <div class="side_by_side_buttons">
+                    <button type="button" class="bottom_left">Bottom<br>Left</button>
+                    <button type="button" class="left">Left</button>
+                    <button type="button" class="top_left">Top<br>Left</button>
+                    <button type="button" class="top_center">Top<br>Center</button>
+                </div>
+                <div class="side_by_side_buttons">
+                    <button type="button" class="top_right">Top<br>Right</button>
+                    <button type="button" class="right">Right</button>
+                    <button type="button" class="bottom_right">Bottom<br>Right</button>
+                    <button type="button" class="bottom_center">Bottom<br>Center</button>
+                </div>
+            </div>
+            <h2>Show Image</h2>
+            <div class="side_by_side">
+                <div class="switch" id="show_image_switch">
+                    <div class="switch_circle"></div>
+                </div>
+                <input type="text" id="show_image_input" class="input" placeholder="URL">
+            </div>
+            <h2>Image Opacity</h2>
+            <input type="text" id="image_opacity_input" class="input" placeholder="ex: 0.5">
+            <h2>Image Size</h2>
+            <input type="text" id="image_size_input" class="input" placeholder="ex: 200">
+            <h2>Image Positon</h2>
+            <div id="image_position_buttons" class="position_buttons">
+                <div class="side_by_side_buttons">
+                    <button type="button" class="bottom_left">Bottom<br>Left</button>
+                    <button type="button" class="left">Left</button>
+                    <button type="button" class="top_left">Top<br>Left</button>
+                    <button type="button" class="top_center">Top<br>Center</button>
+                </div>
+                <div class="side_by_side_buttons">
+                    <button type="button" class="top_right">Top<br>Right</button>
+                    <button type="button" class="right">Right</button>
+                    <button type="button" class="bottom_right">Bottom<br>Right</button>
+                    <button type="button" class="bottom_center">Bottom<br>Center</button>
+                </div>
+            </div>
+            <button type="submit" id="submit_button"></button>
+        </form>
+
+        <script src="popup_scripts/messages/wallpaper_message.js"></script>
+        <script type="module" src="popup_scripts/messages/clock_message.js"></script>
+        <script type="module" src="popup_scripts/animations/switch_on.js"></script>
+        <script type="module" src="popup_scripts/animations/option_selected.js"></script>
+        <script type="module" src="popup_scripts/saves/first_time_execution.js"></script>
+        <script type="module" src="popup_scripts/messages/image_message.js"></script>
+        <script type="module" src="popup_scripts/messages/dark_message.js"></script>
+    </div>
+</body>
+</html>
