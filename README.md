@@ -13,9 +13,7 @@ A purple, dark and cozy theme for your browser!
 
 ## Installation
 Install it on the firefox add-on page!
-```
-Awaiting Review...
-```
+https://addons.mozilla.org/en-US/firefox/addon/darkstice-theme/
 
 ## Color Palette
 <table>
